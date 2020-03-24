@@ -1,12 +1,8 @@
-### install regular packages
-install.packages("reticulate") # python support in RMarkdown
-install.packages("ggplot2") # for plotting
-install.packages(c("rmarkdown", "caTools", "bitops")) # for knitting
+#!/bin/bash
 
-### install bioconductor packages
-install.packages("BiocManager")
-# BiocManager::install("package")
+# Install JupyterLab extension
+jupyter labextension install @jupyterlab/toc
 
-### install GitHub packages (tag = commit, branch or release tag)
-install.packages("devtools")
-# devtools::install_github("user/repo", ref = "tag")
+# Remove output from Jupyter notebooks
+# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace python_example_for_Jupyter.ipynb
+# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace R_example_for_Jupyter.ipynb

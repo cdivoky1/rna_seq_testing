@@ -11,7 +11,7 @@ install.packages("httr")
 
 ### install bioconductor packages
 install.packages("BiocManager")
-BiocManager::install() # for knitting
+#BiocManager::install() # for knitting
 
 ### install GitHub packages (tag = commit, branch or release tag)
 install.packages("devtools")
