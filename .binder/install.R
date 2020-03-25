@@ -8,7 +8,6 @@ install.packages("tidyverse")
 install.packages("rmarkdown")
 install.packages("httr")
 
-
 ### install bioconductor packages
 install.packages("BiocManager")
 #BiocManager::install() # for knitting
