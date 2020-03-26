@@ -8,4 +8,4 @@ jupyter nbextension enable --sys-prefix --py nbgrader
 jupyter serverextension enable --sys-prefix --py nbgrader
 
 # Remove output from Jupyter notebooks
-jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pyopenms/reading_mzml.ipynb
+# jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace pyopenms/reading_mzml.ipynb
