@@ -5,7 +5,7 @@ install.packages("ggplot2") # for plotting
 install.packages(c("rmarkdown", "caTools", "bitops")) # for knitting
 
 ### install bioconductor packages
-# install.packages("BiocManager")
+install.packages("BiocManager")
 # BiocManager::install("package")
 
 ### install GitHub packages (tag = commit, branch or release tag)
